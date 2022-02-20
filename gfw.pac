@@ -16631,7 +16631,6 @@ function isPrivateIp(ip) {
 }
 
 function FindProxyForURL(url, host) {
-    return direct;
     if (isPlainHostName(host)
      || isPrivateIp(host)
      || isLocalTestDomain(host)
